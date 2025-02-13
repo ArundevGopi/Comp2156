@@ -7,12 +7,15 @@
     "test": "echo \"Error: no test specified\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArundevGopi/Comp2156.git"
   },
+  "homepage": "https://ArundevGopi.github.io/Comp2156",
   "keywords": [],
   "author": "",
   "license": "ISC",
